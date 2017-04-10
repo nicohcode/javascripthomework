@@ -45,7 +45,7 @@ y = 25
 var u= x * y
 console.log(u);
 
-//string
+//string step 1
 var first = 'Nico';
 console.log(first);
 
@@ -54,6 +54,49 @@ console.log(middle);
 
 var last = 'Heb';
 console.log(last);
+
+// step 2
+var name= first + ' ' + middle + ' ' + last;
+console.log(name);
+
+// step 3
+var statement = 'My name is' + ' ' + name;
+console.log(statement);
+
+// step 4
+var greeting = 'Hi, my name is' + ' ' + name;
+console.log(greeting);
+
+//function step 1
+function square(n){
+
+var value=n*n;
+return value;
+
+
+}
+// step 2
+console.log(square(2));
+
+console.log(square(4));
+
+console.log(square(16));
+
+// step 3
+function myname(firstName, middleName, lastName){
+
+  var name= firstName + ' ' + middleName + ' ' + lastName;
+
+  return name;
+}
+// step 4 - 5
+console.log(myname('Neon', 'Genesis', 'Evangelion'));
+
+console.log(myname('Barack','Hussein','Obama'));
+
+console.log(myname('Martin','Luther','King'));
+
+
 
 
 
